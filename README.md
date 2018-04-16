@@ -52,3 +52,5 @@ Generates mazes like this:
 #.....#.............#.#.#...................#
 #############################################
 ```
+
+Implementation based on [this article](http://www.migapro.com/depth-first-search/) with stack implementation from [this article](http://datagenetics.com/blog/november22015/index.html).
