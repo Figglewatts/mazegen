@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
+../include/Stack.h
+stdlib.h
+-
+stdbool.h
+-
+limits.h
+-
+
 /home/sam/Documents/git-repos/mazegen/src/main.c
 stdio.h
 -
+time.h
+-
+stdlib.h
+-
+Stack.h
+/home/sam/Documents/git-repos/mazegen/src/Stack.h
 
