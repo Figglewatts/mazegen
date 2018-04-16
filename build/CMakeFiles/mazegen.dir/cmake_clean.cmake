@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mazegen.dir/src/main.c.o"
+  "CMakeFiles/mazegen.dir/src/MazeGenerator.c.o"
   "mazegen.pdb"
   "mazegen"
 )

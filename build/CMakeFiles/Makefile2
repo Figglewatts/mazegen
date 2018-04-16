@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/sam/Documents/git-repos/mazegen/build
 CMakeFiles/mazegen.dir/all:
 	$(MAKE) -f CMakeFiles/mazegen.dir/build.make CMakeFiles/mazegen.dir/depend
 	$(MAKE) -f CMakeFiles/mazegen.dir/build.make CMakeFiles/mazegen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/Documents/git-repos/mazegen/build/CMakeFiles --progress-num=1,2 "Built target mazegen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/Documents/git-repos/mazegen/build/CMakeFiles --progress-num=1,2,3 "Built target mazegen"
 .PHONY : CMakeFiles/mazegen.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/mazegen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mazegen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/git-repos/mazegen/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/git-repos/mazegen/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mazegen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/Documents/git-repos/mazegen/build/CMakeFiles 0
 .PHONY : CMakeFiles/mazegen.dir/rule

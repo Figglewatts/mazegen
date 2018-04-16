@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/sam/Documents/git-repos/mazegen/src/MazeGenerator.c" "/home/sam/Documents/git-repos/mazegen/build/CMakeFiles/mazegen.dir/src/MazeGenerator.c.o"
   "/home/sam/Documents/git-repos/mazegen/src/main.c" "/home/sam/Documents/git-repos/mazegen/build/CMakeFiles/mazegen.dir/src/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

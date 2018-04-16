@@ -1,5 +1,5 @@
-#ifndef STACK_H
-#define STACK_H
+#ifndef STACK_H_INCLUDED
+#define STACK_H_INCLUDED
 
 #include <stdlib.h>
 #include <stdbool.h>
@@ -36,6 +36,7 @@ void stack_grow(Stack* stack, unsigned size)
 	if (stack->capacity >= size)
 		return;
 	stack->array = realloc(stack->array, size * sizeof(int));
+	stack->capacity = size;
 }
 
 void stack_push(Stack* stack, int item)
@@ -52,4 +53,4 @@ int stack_pop(Stack* stack)
 	return stack->array[stack->top--];
 }
 
-#endif // STACK_H
+#endif // STACK_H_INCLUDED

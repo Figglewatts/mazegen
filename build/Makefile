@@ -123,6 +123,33 @@ mazegen/fast:
 	$(MAKE) -f CMakeFiles/mazegen.dir/build.make CMakeFiles/mazegen.dir/build
 .PHONY : mazegen/fast
 
+src/MazeGenerator.o: src/MazeGenerator.c.o
+
+.PHONY : src/MazeGenerator.o
+
+# target to build an object file
+src/MazeGenerator.c.o:
+	$(MAKE) -f CMakeFiles/mazegen.dir/build.make CMakeFiles/mazegen.dir/src/MazeGenerator.c.o
+.PHONY : src/MazeGenerator.c.o
+
+src/MazeGenerator.i: src/MazeGenerator.c.i
+
+.PHONY : src/MazeGenerator.i
+
+# target to preprocess a source file
+src/MazeGenerator.c.i:
+	$(MAKE) -f CMakeFiles/mazegen.dir/build.make CMakeFiles/mazegen.dir/src/MazeGenerator.c.i
+.PHONY : src/MazeGenerator.c.i
+
+src/MazeGenerator.s: src/MazeGenerator.c.s
+
+.PHONY : src/MazeGenerator.s
+
+# target to generate assembly for a file
+src/MazeGenerator.c.s:
+	$(MAKE) -f CMakeFiles/mazegen.dir/build.make CMakeFiles/mazegen.dir/src/MazeGenerator.c.s
+.PHONY : src/MazeGenerator.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mazegen"
+	@echo "... src/MazeGenerator.o"
+	@echo "... src/MazeGenerator.i"
+	@echo "... src/MazeGenerator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
